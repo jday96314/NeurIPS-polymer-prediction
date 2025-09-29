@@ -1,0 +1,22 @@
+{
+    "filepath_0": "data_filtering/standardized_datasets/Tg/dmitry_2.csv",
+    "raw_label_weight_0": 0.97090,
+    "dataset_weight_0": 0.42392,
+    "max_error_ratio_0": 3.34138,
+    "purge_extra_train_smiles_overlap_0": true,
+    "filepath_1": "data_filtering/standardized_datasets/Tg/dmitry_3.csv",
+    "raw_label_weight_1": 0.74135,
+    "dataset_weight_1": 0.22483,
+    "max_error_ratio_1": 3.52074,
+    "purge_extra_train_smiles_overlap_1": true,
+    "filepath_2": "data_filtering/standardized_datasets/Tg/host_extra.csv",
+    "raw_label_weight_2": 0.54009,
+    "dataset_weight_2": 0.56485,
+    "max_error_ratio_2": 1.64012,
+    "purge_extra_train_smiles_overlap_2": false,
+    "filepath_3": "data_filtering/standardized_datasets/Tg/LAMALAB.csv",
+    "raw_label_weight_3": 0.97593,
+    "dataset_weight_3": 0.75538,
+    "max_error_ratio_3": 0.56985,
+    "purge_extra_train_smiles_overlap_3": true
+}

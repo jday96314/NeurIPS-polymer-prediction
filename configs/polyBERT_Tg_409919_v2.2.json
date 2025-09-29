@@ -1,0 +1,9 @@
+{
+  "base_model_identifier": "kuelumbus/polyBERT",
+  "context_pooler_hidden_size": 600,
+  "pretrained_weights_path": "models/20250913_120415_poly_3epochs_2thresh_v2.2_rankup/single_split/polymer_bert_rankup.pth",
+  "train_batch_size": 32,
+  "epoch_count": 1,
+  "backbone_lr": 4.839422536903231e-06,
+  "head_lr_multiplier": 31.947221640195707
+}

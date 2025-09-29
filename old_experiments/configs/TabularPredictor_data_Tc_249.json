@@ -1,0 +1,17 @@
+{
+    "filepath_0": "data_filtering/standardized_datasets/Tc/host_extra.csv",
+    "raw_label_weight_0": 0.345375124119495,
+    "dataset_weight_0": 0.8257348506349979,
+    "max_error_ratio_0": 2.439561795581982,
+    "purge_extra_train_smiles_overlap_0": false,
+    "filepath_1": "data_filtering/standardized_datasets/Tc/RadonPy.csv",
+    "raw_label_weight_1": 0.1585637098311785,
+    "dataset_weight_1": 0.6560009584009556,
+    "max_error_ratio_1": 0.9876223193690923,
+    "purge_extra_train_smiles_overlap_1": true,
+    "filepath_2": "data_filtering/standardized_datasets/Tc/RadonPy_filtered.csv",
+    "raw_label_weight_2": 0.9997048753672971,
+    "dataset_weight_2": 0.8115945137757461,
+    "max_error_ratio_2": 1.2249237560483848,
+    "purge_extra_train_smiles_overlap_2": true
+}

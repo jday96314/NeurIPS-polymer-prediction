@@ -1,0 +1,76 @@
+2025-09-27 21:20:01 | unimol_tools/data/conformer.py | 452 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-09-27 21:20:03 | unimol_tools/data/conformer.py | 467 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-09-27 21:20:03 | unimol_tools/data/conformer.py | 484 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 100.00% of molecules.
+2025-09-27 21:20:03 | unimol_tools/data/datahub.py | 187 | INFO | Uni-Mol Tools | conf_cache_level is 2, saving conformers to models/UniMol2_2025_08_17_TabM/Rg/Rg_SMILES.sdf.
+2025-09-27 21:20:04 | unimol_tools/data/datahub.py | 201 | INFO | Uni-Mol Tools | Successfully saved sdf file to models/UniMol2_2025_08_17_TabM/Rg/Rg_SMILES.sdf
+2025-09-27 21:20:04 | unimol_tools/tasks/trainer.py | 78 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-09-27 21:20:04 | unimol_tools/tasks/trainer.py | 98 | INFO | Uni-Mol Tools | Using single GPU.
+2025-09-27 21:20:04 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from /home/jday/miniconda3/envs/polymer/lib/python3.11/site-packages/unimol_tools/weights/modelzoo/84M/checkpoint.pt
+2025-09-27 21:20:04 | unimol_tools/models/nnmodel.py | 281 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-09-27 21:20:04 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Rg/model_0.pth
+2025-09-27 21:20:07 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:20:12 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Rg/model_1.pth
+2025-09-27 21:20:14 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:20:19 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Rg/model_2.pth
+2025-09-27 21:20:22 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:20:26 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Rg/model_3.pth
+2025-09-27 21:20:29 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:20:33 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Rg/model_4.pth
+2025-09-27 21:20:36 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:20:46 | unimol_tools/data/conformer.py | 452 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-09-27 21:20:48 | unimol_tools/data/conformer.py | 467 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-09-27 21:20:48 | unimol_tools/data/conformer.py | 484 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 100.00% of molecules.
+2025-09-27 21:20:48 | unimol_tools/data/datahub.py | 187 | INFO | Uni-Mol Tools | conf_cache_level is 2, saving conformers to models/UniMol2_2025_08_17_TabM/Tc/Tc_SMILES.sdf.
+2025-09-27 21:20:49 | unimol_tools/data/datahub.py | 201 | INFO | Uni-Mol Tools | Successfully saved sdf file to models/UniMol2_2025_08_17_TabM/Tc/Tc_SMILES.sdf
+2025-09-27 21:20:49 | unimol_tools/tasks/trainer.py | 78 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-09-27 21:20:49 | unimol_tools/tasks/trainer.py | 98 | INFO | Uni-Mol Tools | Using single GPU.
+2025-09-27 21:20:49 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from /home/jday/miniconda3/envs/polymer/lib/python3.11/site-packages/unimol_tools/weights/modelzoo/84M/checkpoint.pt
+2025-09-27 21:20:49 | unimol_tools/models/nnmodel.py | 281 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-09-27 21:20:49 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tc/model_0.pth
+2025-09-27 21:20:52 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:20:56 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tc/model_1.pth
+2025-09-27 21:20:59 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:04 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tc/model_2.pth
+2025-09-27 21:21:07 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:11 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tc/model_3.pth
+2025-09-27 21:21:14 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:19 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tc/model_4.pth
+2025-09-27 21:21:22 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:32 | unimol_tools/data/conformer.py | 452 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-09-27 21:21:34 | unimol_tools/data/conformer.py | 467 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-09-27 21:21:34 | unimol_tools/data/conformer.py | 484 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 100.00% of molecules.
+2025-09-27 21:21:34 | unimol_tools/data/datahub.py | 187 | INFO | Uni-Mol Tools | conf_cache_level is 2, saving conformers to models/UniMol2_2025_08_17_TabM/Tg/Tg_SMILES.sdf.
+2025-09-27 21:21:34 | unimol_tools/data/datahub.py | 201 | INFO | Uni-Mol Tools | Successfully saved sdf file to models/UniMol2_2025_08_17_TabM/Tg/Tg_SMILES.sdf
+2025-09-27 21:21:34 | unimol_tools/tasks/trainer.py | 78 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-09-27 21:21:34 | unimol_tools/tasks/trainer.py | 98 | INFO | Uni-Mol Tools | Using single GPU.
+2025-09-27 21:21:35 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from /home/jday/miniconda3/envs/polymer/lib/python3.11/site-packages/unimol_tools/weights/modelzoo/84M/checkpoint.pt
+2025-09-27 21:21:35 | unimol_tools/models/nnmodel.py | 281 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-09-27 21:21:35 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tg/model_0.pth
+2025-09-27 21:21:38 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:42 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tg/model_1.pth
+2025-09-27 21:21:46 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:50 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tg/model_2.pth
+2025-09-27 21:21:53 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:21:58 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tg/model_3.pth
+2025-09-27 21:22:01 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:22:05 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Tg/model_4.pth
+2025-09-27 21:22:08 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:22:19 | unimol_tools/data/conformer.py | 452 | INFO | Uni-Mol Tools | Start generating conformers...
+2025-09-27 21:22:21 | unimol_tools/data/conformer.py | 467 | INFO | Uni-Mol Tools | Succeeded in generating conformers for 100.00% of molecules.
+2025-09-27 21:22:21 | unimol_tools/data/conformer.py | 484 | INFO | Uni-Mol Tools | Succeeded in generating 3d conformers for 100.00% of molecules.
+2025-09-27 21:22:21 | unimol_tools/data/datahub.py | 187 | INFO | Uni-Mol Tools | conf_cache_level is 2, saving conformers to models/UniMol2_2025_08_17_TabM/Density/Density_SMILES.sdf.
+2025-09-27 21:22:21 | unimol_tools/data/datahub.py | 201 | INFO | Uni-Mol Tools | Successfully saved sdf file to models/UniMol2_2025_08_17_TabM/Density/Density_SMILES.sdf
+2025-09-27 21:22:21 | unimol_tools/tasks/trainer.py | 78 | INFO | Uni-Mol Tools | Number of GPUs available: 1
+2025-09-27 21:22:21 | unimol_tools/tasks/trainer.py | 98 | INFO | Uni-Mol Tools | Using single GPU.
+2025-09-27 21:22:22 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from /home/jday/miniconda3/envs/polymer/lib/python3.11/site-packages/unimol_tools/weights/modelzoo/84M/checkpoint.pt
+2025-09-27 21:22:22 | unimol_tools/models/nnmodel.py | 281 | INFO | Uni-Mol Tools | start predict NNModel:unimolv2
+2025-09-27 21:22:22 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Density/model_0.pth
+2025-09-27 21:22:25 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:22:30 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Density/model_1.pth
+2025-09-27 21:22:33 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:22:38 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Density/model_2.pth
+2025-09-27 21:22:41 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:22:46 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Density/model_3.pth
+2025-09-27 21:22:49 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!
+2025-09-27 21:22:54 | unimol_tools/models/unimolv2.py | 176 | INFO | Uni-Mol Tools | Loading pretrained weights from models/UniMol2_2025_08_17_TabM/Density/model_4.pth
+2025-09-27 21:22:57 | unimol_tools/tasks/trainer.py | 587 | INFO | Uni-Mol Tools | load model success!

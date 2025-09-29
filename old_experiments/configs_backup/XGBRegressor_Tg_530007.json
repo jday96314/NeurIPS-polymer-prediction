@@ -1,0 +1,16 @@
+{
+    "morgan_fingerprint_dim": 2048,
+    "atom_pair_fingerprint_dim": 1024,
+    "torsion_dim": 0,
+    "use_maccs_keys": false,
+    "use_graph_features": true,
+    "n_estimators": 76,
+    "learning_rate": 0.08432593683721337,
+    "max_depth": 4,
+    "subsample": 0.5148489494330272,
+    "colsample_bytree": 0.7415991560116268,
+    "colsample_bynode": 0.510813865914643,
+    "reg_alpha": 4.461704339014017,
+    "reg_lambda": 0.023659883384014355,
+    "objective": "reg:absoluteerror"
+}

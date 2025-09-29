@@ -1,0 +1,8 @@
+{
+    "use_augmentation": false,
+    "filepath_0": "data_filtering/standardized_datasets/FFV/host_extra.csv",
+    "raw_label_weight_0": 0.5920060310633305,
+    "dataset_weight_0": 0.809511786209679,
+    "max_error_ratio_0": 3.4783280364709515,
+    "purge_extra_train_smiles_overlap_0": true
+}

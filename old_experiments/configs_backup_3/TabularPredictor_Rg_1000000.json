@@ -1,0 +1,8 @@
+{
+    "morgan_fingerprint_dim": 2048,
+    "atom_pair_fingerprint_dim": 512,
+    "torsion_dim": 1024,
+    "use_maccs_keys": false,
+    "use_graph_features": false,
+    "backbone_sidechain_detail_level": 2
+}

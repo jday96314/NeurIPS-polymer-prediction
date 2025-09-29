@@ -1,0 +1,15 @@
+{
+    "morgan_fingerprint_dim": 0,
+    "atom_pair_fingerprint_dim": 1024,
+    "torsion_dim": 0,
+    "use_maccs_keys": false,
+    "use_graph_features": true,
+    "backbone_sidechain_detail_level": 2,
+    "width": 114,
+    "layer_count": 2,
+    "embedding_size": 4,
+    "p_drop": 0.16528436183272605,
+    "lr": 0.14426100803586367,
+    "n_epochs": 246,
+    "num_emb_type": "pl"
+}

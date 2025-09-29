@@ -1,0 +1,14 @@
+{
+    "atom_emb": 455,
+    "msg_dim": 97,
+    "out_hidden": 128,
+    "msg_passes": 3,
+    "use_emb_dropout": true,
+    "emb_drop": 0.07971650425969778,
+    "use_msg_dropout": false,
+    "use_head_dropout": true,
+    "head_drop": 0.07706917345977361,
+    "batch_size": 16,
+    "epochs": 458,
+    "max_lr": 1.7568158575438196e-05
+}

@@ -1,0 +1,22 @@
+{
+    "morgan_fingerprint_dim": 1024,
+    "atom_pair_fingerprint_dim": 1024,
+    "torsion_dim": 512,
+    "use_maccs_keys": true,
+    "use_graph_features": false,
+    "backbone_sidechain_detail_level": 2,
+    "n_estimators": 752,
+    "learning_rate": 0.02643887405625583,
+    "max_depth": 5,
+    "subsample": 0.770109718153487,
+    "colsample_bytree": 0.5262330784617865,
+    "colsample_bynode": 0.7456545051106553,
+    "reg_alpha": 0.08655833440715685,
+    "reg_lambda": 0.00043929827852424584,
+    "objective": "reg:squarederror",
+    "use_extra_backbone_sidechain_features": false,
+    "models_directory_path": "simulations/models",
+    "predicted_features_detail_level": 1,
+    "gemini_features_detail_level": 0,
+    "polybert_embedding_dim_count": 0
+}

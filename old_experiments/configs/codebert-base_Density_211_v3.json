@@ -1,0 +1,9 @@
+{
+  "base_model_identifier": "microsoft/codebert-base",
+  "context_pooler_hidden_size": 768,
+  "pretrained_weights_path": "models/20250914_140657_code_6epochs_2thresh_v3_rankup/single_split/polymer_bert_rankup.pth",
+  "train_batch_size": 16,
+  "epoch_count": 3,
+  "backbone_lr": 1.0559533771636876e-05,
+  "head_lr_multiplier": 30.34598688833541
+}

@@ -1,0 +1,18 @@
+{
+    "morgan_fingerprint_dim": 0,
+    "atom_pair_fingerprint_dim": 0,
+    "torsion_dim": 0,
+    "use_maccs_keys": true,
+    "use_graph_features": true,
+    "backbone_sidechain_detail_level": 2,
+    "num_emb_n_bins": 56,
+    "batch_size": 156,
+    "lr": 0.0014319462593758506,
+    "d_embedding": 9,
+    "d_block": 1227,
+    "dropout": 0.17108686340892088,
+    "gradient_clipping_norm": null,
+    "num_emb_type": "plr",
+    "n_blocks": 1,
+    "arch_type": "tabm-mini"
+}

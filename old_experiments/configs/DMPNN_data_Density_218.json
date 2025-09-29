@@ -1,0 +1,13 @@
+{
+    "filepath_0": "data_filtering/standardized_datasets/Density/dmitry.csv",
+    "raw_label_weight_0": 0.050668688300460674,
+    "dataset_weight_0": 0.13266431854512828,
+    "max_error_ratio_0": 0.945453973939569,
+    "purge_extra_train_smiles_overlap_0": false,
+    "filepath_1": "data_filtering/standardized_datasets/Density/RadonPy.csv",
+    "raw_label_weight_1": 0.14663046215525077,
+    "dataset_weight_1": 0.9898563790893301,
+    "max_error_ratio_1": 3.363492163150198,
+    "purge_extra_train_smiles_overlap_1": false,
+    "batch_size": 32
+}

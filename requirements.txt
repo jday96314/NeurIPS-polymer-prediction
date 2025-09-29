@@ -1,0 +1,10 @@
+autogluon==1.4.0
+unimol_tools
+transformers
+rdkit==2025.3.3
+kaggle
+polars
+openpyxl
+torch-geometric
+cir-model
+sentence-transformers

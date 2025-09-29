@@ -1,0 +1,14 @@
+{
+    "morgan_fingerprint_dim": 512,
+    "atom_pair_fingerprint_dim": 0,
+    "torsion_dim": 512,
+    "use_maccs_keys": true,
+    "use_graph_features": true,
+    "backbone_sidechain_detail_level": 0,
+    "loss_function": "MAE",
+    "iterations": 1400,
+    "learning_rate": 0.0044251538125384005,
+    "depth": 7,
+    "l2_leaf_reg": 5.831261657892233,
+    "border_count": 187
+}

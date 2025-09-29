@@ -1,0 +1,14 @@
+{
+    "use_polybert_features": true,
+    "morgan_fingerprint_dim": 512,
+    "atom_pair_fingerprint_dim": 2048,
+    "torsion_dim": 1024,
+    "use_maccs_keys": true,
+    "use_graph_features": false,
+    "backbone_sidechain_detail_level": 2,
+    "use_extra_backbone_sidechain_features": false,
+    "models_directory_path": "simulations/models",
+    "predicted_features_detail_level": 0,
+    "gemini_features_detail_level": 0,
+    "polybert_embedding_dim_count": 150
+}

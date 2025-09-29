@@ -1,0 +1,76 @@
+# =======================================================================
+#  QUICK RELAXATION RUN — snapshot for ML descriptors
+#  * all-atom polymer, OPLS/GAFF-like parameters assumed *
+#  * units  = real   (kcal mol-1, Å, fs, atm, g mol-1)   *
+# =======================================================================
+
+# ---------- USER-ADJUSTABLE KNOBS --------------------------------------
+variable t_start   equal 300.0     # K — initial & target temperature
+variable p_target  equal 1.0       # atm — isotropic barostat target
+# variable nsteps    equal 10000     # 2 fs × 1e4  ≈ 20 ps total MD
+variable nsteps    equal 40000
+variable dumpstep  equal 100       # trajectory stride (frames every 0.2 ps)
+variable seed      equal 123456    # RNG seed for velocity init
+# -----------------------------------------------------------------------
+
+units      real
+atom_style full
+boundary   p p p            # periodic in all directions
+
+# ----- topology & force-field assignment ------------------------------
+## Non-bonded: Lennard-Jones + long-range Coulomb
+#  12 Å is typical for OPLS/GAFF in real units.  Change if your FF differs.
+pair_style      lj/cut/coul/long 12.0
+pair_modify     mix arithmetic tail yes  # apply long-range LJ tail correction
+kspace_style    pppm 1.0e-4              # Ewald/PPPM accuracy; raise tol if slow
+
+bond_style      harmonic
+angle_style     harmonic
+dihedral_style  fourier
+improper_style  cvff
+special_bonds   amber                    # 1-4 scaling 0.5 / 0.8333 like AMBER/OPLS
+
+neighbor   2.0 bin                       # 2 Å skin is fine for 12 Å cutoff
+neigh_modify delay 0 every 1 check yes
+
+read_data  eq1.data          # <-- created by packmol or earlier workflow
+
+# ---------- ENERGY MINIMISATION ---------------------------------------
+#  Loose thresholds are adequate; goal is just to resolve overlaps.
+min_style   cg
+minimize    1.0e-3  1.0e-4  1000  5000   # etol ftol maxiter maxeval
+
+# ---------- INITIAL VELOCITIES ----------------------------------------
+velocity all create ${t_start} ${seed} rot yes dist gaussian
+
+# ---------- CONSTRAINTS (optional) -------------------------------------
+#  SHAKE lets you use a 2 fs timestep by constraining X–H bonds.
+fix Shake all shake 1.0e-4 100 0 b 1 a 1       # adjust if your FF lists bond IDs
+timestep 2.0                                    # 2 fs stable with SHAKE;
+                                               # drop to 1 fs if you omit SHAKE
+
+# ---------- BAROSTAT + THERMOSTAT --------------------------------------
+#  20 ps NPT at target T/P brings density close to equilibrium.
+fix  NPT all npt temp ${t_start} ${t_start} 100.0 iso ${p_target} ${p_target} 1000.0
+
+thermo_style custom step temp press density etotal ke pe vol
+thermo 500               # print every 1 ps; change if you want finer granularity
+thermo_modify flush yes
+
+# ---------- TRAJECTORY OUTPUT -----------------------------------------
+dump  Descr all xtc ${dumpstep} eq1_short.xtc   # portable, compressed trajectory
+dump_modify Descr unwrap yes                    # unwrap for descriptor tools
+#  If you only need *one* frame, set dumpstep to ${nsteps} (i.e. last frame only).
+
+run ${nsteps}
+
+unfix NPT
+unfix Shake
+undump Descr
+
+# ---------- FINAL SNAPSHOT & DATA -------------------------------------
+write_dump all custom eq1_final.dump id type x y z vx vy vz
+write_data      eq1_final.data
+
+#  END OF INPUT
+# -----------------------------------------------------------------------

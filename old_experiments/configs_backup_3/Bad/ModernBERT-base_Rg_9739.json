@@ -1,0 +1,9 @@
+{
+  "base_model_identifier": "answerdotai/ModernBERT-base",
+  "context_pooler_hidden_size": 768,
+  "pretrained_weights_path": "models/20250819_223849_modern_6epochs_2thresh_rankup/single_split/polymer_bert_rankup.pth",
+  "train_batch_size": 32,
+  "epoch_count": 2,
+  "backbone_lr": 4.405201099056319e-05,
+  "head_lr_multiplier": 14.370951992360206
+}

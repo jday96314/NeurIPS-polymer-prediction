@@ -1,0 +1,7 @@
+{
+    "filepath_0": "data_filtering/standardized_datasets/Rg/RadonPy.csv",
+    "raw_label_weight_0": 0.8230511614232854,
+    "dataset_weight_0": 0.5730704612035871,
+    "max_error_ratio_0": 4.833254462811136,
+    "purge_extra_train_smiles_overlap_0": false
+}

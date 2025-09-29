@@ -1,0 +1,16 @@
+{
+    "use_augmentation": true,
+    "synthetic_sample_weight": 0.3006787646636637,
+    "synthetic_sample_count": 888,
+    "gmm_component_count": 7,
+    "filepath_0": "data_filtering/standardized_datasets/Density/dmitry.csv",
+    "raw_label_weight_0": 0.9022071450358259,
+    "dataset_weight_0": 0.0001445544800620993,
+    "max_error_ratio_0": 3.6705408901979664,
+    "purge_extra_train_smiles_overlap_0": true,
+    "filepath_1": "data_filtering/standardized_datasets/Density/RadonPy.csv",
+    "raw_label_weight_1": 0.21278154297371668,
+    "dataset_weight_1": 0.2485339662055761,
+    "max_error_ratio_1": 1.5258226099838075,
+    "purge_extra_train_smiles_overlap_1": false
+}

@@ -1,0 +1,18 @@
+{
+    "morgan_fingerprint_dim": 512,
+    "atom_pair_fingerprint_dim": 1024,
+    "torsion_dim": 1024,
+    "use_maccs_keys": true,
+    "use_graph_features": false,
+    "backbone_sidechain_detail_level": 2,
+    "num_emb_n_bins": 36,
+    "batch_size": 228,
+    "lr": 0.004181025986700455,
+    "d_embedding": 10,
+    "d_block": 205,
+    "dropout": 0.05073746606508428,
+    "gradient_clipping_norm": 1.0,
+    "num_emb_type": "pbld",
+    "n_blocks": 5,
+    "arch_type": "tabm"
+}
